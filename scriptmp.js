@@ -91,7 +91,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const duration = selectedSong.querySelector('.duration').textContent;
 
         audioPlayer.src = audioSrc;
-        songImage.src = imageSrc;
+        
         songTitle.textContent = title;
         timer.textContent = `0:00 / ${duration}`;
         audioPlayer.pause();
